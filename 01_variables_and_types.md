@@ -34,3 +34,12 @@ bool(1)
 ```python
 x, y = 10, 20
 ```
+
+### Common conversion error
+
+Not every string can be converted to a number:
+
+```python
+int("42")       # works
+int("hello")    # ValueError
+```
